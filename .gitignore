@@ -1,0 +1,10 @@
+# Build outputs
+target/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# macOS
+.DS_Store
