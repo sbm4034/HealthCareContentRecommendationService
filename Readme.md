@@ -34,14 +34,16 @@ A Spring Boot application that provides RESTful APIs for healthcare content mana
 
 1. **Clone the repository:**
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/sbm4034/HealthCareContentRecommendationService.git
    cd HealthCareContentRecommendation
    
 2. **Configure PostgreSQL:**
    - Create a database named `healthcare_content` with schema `org`.
    - Update the `application.properties` file with your PostgreSQL credentials.
 3. **Run the FastAPI service:**
-   - Ensure you have setup python environment with FastAPI installed. 
+   - Clone the repository for the FastAPI service:
+   ```git clone https://github.com/sbm4034/AI_Projects_Experiments```
+   - Ensure you have setup python (3.9 or above) environment with FastAPI installed. 
    - Run the FastAPI service using following command:
    ```  uvicorn recommendation_api:app --reload --port 5000```
    - If the fast API isn't installed, you can install it using pip:
