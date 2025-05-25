@@ -62,4 +62,5 @@ A Spring Boot application that provides RESTful APIs for healthcare content mana
   mvn clean install
   ```
 6. Verify the recommendation API by invoking the curl ```curl --location 'http://localhost:8080/api/v1/content/2/recommendations'```
+7. You can also access the OpenAPI documentation at `http://localhost:8080/swagger-ui.html`.
    
